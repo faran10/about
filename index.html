@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+</head>
+
+<body>
+    <h1>About</h1>
+
+    <div class="contact1" id="contwithrobin">
+        <h1>Contact With Robin</h1>
+        <h3>Gmail: robinhood@gmail.com</h3>
+        <button onclick="close1()" id="close">Close</button>
+    </div>
+
+    <div class="contact2" id="contwithkat">
+        <h1>Contact With Kattie</h1>
+        <h3>Gmail: kattie@gmail.com</h3>
+        <button onclick="close2()" id="close">Close</button>
+    </div>
+
+    <div class="contact3" id="contwithrichard">
+        <h1>Contact With Richard</h1>
+        <h3>Gmail: richardhen@gmail.com</h3>
+        <button onclick="close3()" id="close">Close</button>
+    </div>
+
+    <div class="contact4" id="contwithmonica">
+        <h1>Contact With Monica</h1>
+        <h3>Gmail: monicade@gmail.com</h3>
+        <button onclick="close4()" id="close">Close</button>
+    </div>
+
+    <div class="container">
+        <div class="card1">
+            <img src="./imgs/pic1.jpeg" alt="Man picture with suit">
+            <h3>Robin Hood</h3>
+            <h4>CEO & Founder</h4>
+            <h2><i class="fa fa-facebook" aria-hidden="true" id="fb"></i> <i class="fa fa-twitter" aria-hidden="true" id="twi"></i>
+                <i class="fa fa-instagram" aria-hidden="true" id="ins"></i>
+            </h2>
+            <button onclick="robincont()" class="cont">Contact</button>
+        </div>
+        <div class="card2">
+            <img src="./imgs/pic2.jpeg" alt="Woman picture with suit">
+            <h3>Kattie</h3>
+            <h4>Senior Manager</h4>
+            <h2><i class="fa fa-facebook" aria-hidden="true" id="fb"></i> <i class="fa fa-twitter" aria-hidden="true" id="twi"></i>
+                <i class="fa fa-instagram" aria-hidden="true" id="ins"></i>
+            </h2>
+            <button onclick="katcont()" class="cont">Contact</button>
+        </div>
+        <div class="card3">
+            <img src="./imgs/pic3.jpeg" alt="Man picture with suit">
+            <h3>Richard Hendricks</h3>
+            <h4>Senior Manager</h4>
+            <h2><i class="fa fa-facebook" aria-hidden="true" id="fb"></i> <i class="fa fa-twitter" aria-hidden="true" id="twi"></i>
+                <i class="fa fa-instagram" aria-hidden="true" id="ins"></i>
+            </h2>
+            <button onclick="richardcont()" class="cont">Contact</button>
+        </div>
+        <div class="card4">
+            <img src="./imgs/pic4.jpeg" alt="Woman picture with suit">
+            <h3>Monica De'Souza</h3>
+            <h4>Senior Manager</h4>
+            <h2><i class="fa fa-facebook" aria-hidden="true" id="fb"></i> <i class="fa fa-twitter" aria-hidden="true" id="twi"></i>
+                <i class="fa fa-instagram" aria-hidden="true" id="ins"></i>
+            </h2>
+            <button onclick="monicont()" class="cont">Contact</button>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

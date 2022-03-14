@@ -1,0 +1,1022 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    position: relative;
+}
+.container #blur .active {
+    filter: blur(8px);
+}
+
+/* card 1 */
+
+.container .card1 {
+    margin-top: 20px;
+    width: 50vh;
+    height: 83vh;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+.container .card1 img {
+    width: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 2px solid lightsteelblue;
+    border-radius: 50%;
+}
+.container .card1 h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.container .card1 h4 {
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+.container .card1 h2 {
+    text-align: center;
+    letter-spacing: 6px;
+    margin-top: 15px;
+}
+#fb {
+    color: blue;
+    opacity: 0.7;
+    cursor: pointer;
+}
+#twi {
+    color: blue;
+    cursor: pointer;
+}
+#ins {
+    color: red;
+    cursor: pointer;
+}
+.container .card1 button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    width: 70%;
+    height: 7%;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+
+/* Card 2 */
+
+.container .card2 {
+    width: 50vh;
+    height: 83vh;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+.container .card2 img {
+    width: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+.container .card2 h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.container .card2 h4 {
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+.container .card2 h2 {
+    text-align: center;
+    letter-spacing: 6px;
+    margin-top: 15px;
+}
+.container .card2 button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 70%;
+    height: 7%;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+
+/* Card 3 */
+
+.container .card3 {
+    width: 50vh;
+    height: 83vh;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+.container .card3 img {
+    width: 290px;
+    height: 325px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 2px solid lightgrey;
+    border-radius: 50%;
+}
+.container .card3 h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.container .card3 h4 {
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+.container .card3 h2 {
+    text-align: center;
+    letter-spacing: 6px;
+    margin-top: 15px;
+}
+.container .card3 button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 70%;
+    height: 7%;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+/* Card 4 */
+
+.container .card4 {
+    width: 50vh;
+    height: 83vh;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+.container .card4 img {
+    width: 290px;
+    height: 325px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 2px solid lightgrey;
+    border-radius: 50%;
+}
+.container .card4 h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.container .card4 h4 {
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+.container .card4 h2 {
+    text-align: center;
+    letter-spacing: 6px;
+    margin-top: 15px;
+}
+.container .card4 button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 70%;
+    height: 7%;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+/* contact */
+
+.contact1 {
+    display: none;
+    position: absolute;
+    border: 2px solid black;
+    width: 30%;
+    height: 200px;
+    color: black;
+    margin-top: 120px;
+    margin-left: 500px;
+    z-index: 1;
+    box-shadow: 80px 80px 110px rgb(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.9);
+}
+.contact1 h1 {
+    text-align: center;
+}
+.contact1 h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact2 {
+    display: none;
+    position: absolute;
+    border: 2px solid black;
+    width: 430px;
+    height: 200px;
+    color: black;
+    margin-top: 120px;
+    margin-left: 500px;
+    z-index: 1;
+    box-shadow: 80px 80px 110px rgb(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.9);
+}
+.contact2 h1 {
+    text-align: center;
+}
+.contact2 h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact3 {
+    display: none;
+    position: absolute;
+    border: 2px solid black;
+    width: 430px;
+    height: 200px;
+    color: black;
+    margin-top: 120px;
+    margin-left: 500px;
+    z-index: 1;
+    box-shadow: 80px 80px 110px rgb(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.9);
+}
+.contact3 h1 {
+    text-align: center;
+}
+.contact3 h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact4 {
+    display: none;
+    position: absolute;
+    border: 2px solid black;
+    width: 430px;
+    height: 200px;
+    color: black;
+    margin-top: 120px;
+    margin-left: 500px;
+    z-index: 1;
+    box-shadow: 80px 80px 110px rgb(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.9);
+}
+.contact4 h1 {
+    text-align: center;
+}
+.contact4 h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#close {
+    width: 50%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+#close:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.cont:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+@media (max-width: 1110px) {
+    .container .card1 {
+        width: 40vh;
+        height: 75vh;
+    }
+    .container .card1 img {
+        width: 240px;
+    }
+    .contact1, .contact2, .contact3, .contact4 {
+        margin-left: 370px;        
+    }
+    .container .card2 {
+        width: 40vh;
+        height: 75vh;
+    }
+    .container .card2 img {
+        width: 205px;
+    }
+    .container .card3 {
+        width: 40vh;
+        height: 75vh;
+    }
+    .container .card3 img {
+        width: 210px;
+        height: 305px;
+    }
+    .container .card4 {
+        width: 40vh;
+        height: 75vh;
+    }
+    .container .card4 img {
+        width: 210px;
+        height: 305px;
+    }
+
+}
+
+
+@media (max-width: 1034px) {
+    .container .card1 {
+        width: 40vh;
+        height: 75vh;
+    }
+    .container .card1 h3 {
+        font-size: 20px;
+    }
+    .container .card1 img {
+        width: 240px;
+    }
+    .contact1 {
+        width: 50%;
+    }
+    .contact1, .contact2, .contact3, .contact4 {
+        margin-left: 250px;        
+    }
+    .container .card2 {
+        width: 40vh;
+        height: 75vh;
+    }
+    .container .card2 h3 {
+        font-size: 20px;
+    }
+    .container .card2 img {
+        width: 205px;
+    }
+    .container .card3 {
+        width: 40vh;
+        height: 75vh;
+    }
+    .container .card3 h3 {
+        font-size: 20px;
+    }
+    .container .card3 img {
+        width: 210px;
+        height: 305px;
+    }
+    .container .card4 {
+        width: 40vh;
+        height: 75vh;
+    }
+    .container .card4 h3 {
+        font-size: 20px;
+    }
+    .container .card4 img {
+        width: 210px;
+        height: 305px;
+    }
+
+}
+
+@media (max-width: 916px) {
+    .container .card1 {
+        width: 50vh;
+        height: 75vh;
+        margin-left: 120px;
+    }
+    .container .card1 h3 {
+        font-size: 20px;
+    }
+    .container .card1 img {
+        width: 240px;
+    }
+    .contact1 {
+        width: 50%;
+    }
+    .contact1, .contact2, .contact3, .contact4 {
+        margin-left: 200px;        
+    }
+    .container .card2 {
+        width: 50vh;
+        height: 75vh;
+    }
+    .container .card2 h3 {
+        font-size: 20px;
+    }
+    .container .card2 img {
+        width: 205px;
+    }
+    .container .card3 {
+        width: 50vh;
+        height: 75vh;
+        margin-top: 550px;
+        margin-left: -670px;
+    }
+    .contact3 {
+        margin-top: 650px;
+        margin-left: 260px;
+    }
+    .container .card3 h3 {
+        font-size: 20px;
+    }
+    .container .card3 img {
+        width: 210px;
+        height: 305px;
+    }
+    .container .card4 {
+        width: 50vh;
+        height: 75vh;
+        margin-top: 550px;
+    }
+    .container .card4 h3 {
+        font-size: 20px;
+    }
+    .container .card4 img {
+        width: 210px;
+        height: 305px;
+    }
+    .contact4 {
+        margin-top: 650px;
+        margin-left: 260px;
+    }
+
+}
+
+
+
+@media (max-width: 803px) {
+    .container .card1 {
+        width: 50vh;
+        height: 75vh;
+        margin-left: 50px;
+    }
+    .container .card1 h3 {
+        font-size: 20px;
+    }
+    .container .card1 img {
+        width: 240px;
+    }
+    .contact1 {
+        width: 50%;
+    }
+    .contact1, .contact2, .contact3, .contact4 {
+        margin-left: 200px;        
+    }
+    .container .card2 {
+        width: 50vh;
+        height: 75vh;
+    }
+    .container .card2 h3 {
+        font-size: 20px;
+    }
+    .container .card2 img {
+        width: 205px;
+    }
+    .container .card3 {
+        width: 50vh;
+        height: 75vh;
+        margin-top: 550px;
+        margin-left: -670px;
+    }
+    .container .card3 h3 {
+        font-size: 20px;
+    }
+    .container .card3 img {
+        width: 210px;
+        height: 305px;
+    }
+    .container .card4 {
+        width: 50vh;
+        height: 75vh;
+        margin-top: 550px;
+    }
+    .container .card4 h3 {
+        font-size: 20px;
+    }
+    .container .card4 img {
+        width: 210px;
+        height: 305px;
+    }
+
+}
+
+
+
+
+@media (max-width: 735px) {
+    .container .card1 {
+        width: 50vh;
+        height: 75vh;
+        margin-left: 20px;
+    }
+    .container .card1 h3 {
+        font-size: 20px;
+    }
+    .container .card1 img {
+        width: 240px;
+    }
+    .contact1 {
+        width: 50%;
+    }
+    .contact1, .contact2, .contact3, .contact4 {
+        margin-left: 170px;        
+    }
+    .container .card2 {
+        width: 50vh;
+        height: 75vh;
+    }
+    .container .card2 h3 {
+        font-size: 20px;
+    }
+    .container .card2 img {
+        width: 205px;
+    }
+    .container .card3 {
+        width: 50vh;
+        height: 75vh;
+        margin-top: 550px;
+        margin-left: -670px;
+    }
+    .container .card3 h3 {
+        font-size: 20px;
+    }
+    .container .card3 img {
+        width: 210px;
+        height: 305px;
+    }
+    .container .card4 {
+        width: 50vh;
+        height: 75vh;
+        margin-top: 550px;
+    }
+    .container .card4 h3 {
+        font-size: 20px;
+    }
+    .container .card4 img {
+        width: 210px;
+        height: 305px;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width: 706px) {
+    .container {
+        display: block;
+    }
+    .container .card1 {
+        width: 50vh;
+        height: 75vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .card1 h3 {
+        font-size: 20px;
+    }
+    .container .card1 img {
+        width: 240px;
+    }
+    .container .card2 {
+        width: 50vh;
+        height: 75vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .card2 h3 {
+        font-size: 20px;
+    }
+    .container .card2 img {
+        width: 205px;
+    }
+    .contact2 {
+        margin-top: 600px;
+        margin-left: 120px;
+    }
+    .container .card3 {
+        width: 50vh;
+        height: 75vh;
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .card3 h3 {
+        font-size: 20px;
+    }
+    .container .card3 img {
+        width: 210px;
+        height: 305px;
+    }
+    .contact3 {
+        margin-top: 1100px;
+        margin-left: 120px;
+    }
+    .container .card4 {
+        width: 50vh;
+        height: 75vh;
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .card4 h3 {
+        font-size: 20px;
+    }
+    .container .card4 img {
+        width: 210px;
+        height: 305px;
+    }
+    .contact4 {
+        margin-top: 1600px;
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 577px) {
+    .contact1 {
+        width: 50vh;
+        margin-left: 110px;
+    }  
+    .contact2 {
+        width: 50vh;
+        margin-left: 110px;
+    }  
+    .contact3 {
+        width: 50vh;
+        margin-left: 110px;
+    }  
+    .contact4 {
+        width: 50vh;
+        margin-left: 110px;
+    }    
+}
+
+@media (max-width: 460px) {
+    .contact1 {
+        width: 50vh;
+        margin-left: 55px;
+    }  
+    .contact2 {
+        width: 50vh;
+        margin-left: 50px;
+    }  
+    .contact3 {
+        width: 50vh;
+        margin-left: 50px;
+    }  
+    .contact4 {
+        width: 50vh;
+        margin-left: 50px;
+    }    
+}
+
+
+@media (max-width: 382px) {
+    .contact1 {
+        width: 50vh;
+        margin-left: 15px;
+    }  
+    .contact2 {
+        width: 50vh;
+        margin-left: 15px;
+    }  
+    .contact3 {
+        width: 50vh;
+        margin-left: 15px;
+    }  
+    .contact4 {
+        width: 50vh;
+        margin-left: 15px;
+    }    
+}
+@media (max-width: 350px) {
+    .container {
+        display: block;
+    }
+    .container .card1 {
+        width: 45vh;
+        height: 75vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .card1 h3 {
+        font-size: 20px;
+    }
+    .container .card1 img {
+        width: 240px;
+    }
+    .container .card2 {
+        width: 45vh;
+        height: 75vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .card2 h3 {
+        font-size: 20px;
+    }
+    .container .card2 img {
+        width: 205px;
+    }
+    .container .card3 {
+        width: 45vh;
+        height: 75vh;
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .card3 h3 {
+        font-size: 20px;
+    }
+    .container .card3 img {
+        width: 210px;
+        height: 305px;
+    }
+    .container .card4 {
+        width: 45vh;
+        height: 75vh;
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .card4 h3 {
+        font-size: 20px;
+    }
+    .container .card4 img {
+        width: 210px;
+        height: 305px;
+    }
+    .contact1 {
+        width: 40vh;
+        margin-left: 30px;
+    }  
+    .contact1 h1 {
+        font-size: 20px;
+    }
+    .contact2 {
+        width: 40vh;
+        margin-left: 30px;
+    }
+    .contact2 h1 {
+        font-size: 20px;
+    }  
+    .contact3 {
+        width: 40vh;
+        margin-left: 30px;
+    }
+    .contact3 h1 {
+        font-size: 20px;
+    }  
+    .contact4 {
+        width: 40vh;
+        margin-left: 30px;
+    }
+    .contact4 h1 {
+        font-size: 20px;
+    }  
+
+}
+
+
+
+@media (max-width: 314px) {
+    .container {
+        display: block;
+    }
+    .container .card1 {
+        width: 40vh;
+        height: 75vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .card1 h3 {
+        font-size: 20px;
+    }
+    .container .card1 img {
+        width: 240px;
+    }
+    .container .card2 {
+        width: 40vh;
+        height: 75vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .card2 h3 {
+        font-size: 20px;
+    }
+    .container .card2 img {
+        width: 205px;
+    }
+    .container .card3 {
+        width: 40vh;
+        height: 75vh;
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .card3 h3 {
+        font-size: 20px;
+    }
+    .container .card3 img {
+        width: 210px;
+        height: 305px;
+    }
+    .container .card4 {
+        width: 40vh;
+        height: 75vh;
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .card4 h3 {
+        font-size: 20px;
+    }
+    .container .card4 img {
+        width: 210px;
+        height: 305px;
+    }
+    .contact1 {
+        width: 40vh;
+        margin-left: 20px;
+    }  
+    .contact1 h1 {
+        font-size: 20px;
+    }
+    .contact2 {
+        width: 40vh;
+        margin-left: 20px;
+    }
+    .contact2 h1 {
+        font-size: 20px;
+    }  
+    .contact3 {
+        width: 40vh;
+        margin-left: 20px;
+    }
+    .contact3 h1 {
+        font-size: 20px;
+    }  
+    .contact4 {
+        width: 40vh;
+        margin-left: 20px;
+    }
+    .contact4 h1 {
+        font-size: 20px;
+    }  
+
+}
+
+@media (max-width: 290px) {
+    .contact1 {
+        width: 30vh;
+        margin-left: 20px;
+    }  
+    .contact1 h1 {
+        font-size: 20px;
+    }
+    .contact2 {
+        width: 30vh;
+        margin-left: 20px;
+    }
+    .contact2 h1 {
+        font-size: 20px;
+    }  
+    .contact3 {
+        width: 30vh;
+        margin-left: 20px;
+    }
+    .contact3 h1 {
+        font-size: 20px;
+    }  
+    .contact4 {
+        width: 30vh;
+        margin-left: 20px;
+    }
+    .contact4 h1 {
+        font-size: 20px;
+    }  
+
+}
+
+@media (max-width: 283px) {
+    .container {
+        display: block;
+    }
+    .container .card1 {
+        width: 35vh;
+        height: 75vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .card1 h3 {
+        font-size: 20px;
+    }
+    .container .card1 img {
+        width: 220px;
+    }
+    .container .card2 {
+        width: 35vh;
+        height: 75vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .card2 h3 {
+        font-size: 20px;
+    }
+    .container .card2 img {
+        width: 205px;
+    }
+    .container .card3 {
+        width: 35vh;
+        height: 75vh;
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .card3 h3 {
+        font-size: 20px;
+    }
+    .container .card3 img {
+        width: 210px;
+        height: 305px;
+    }
+    .container .card4 {
+        width: 35vh;
+        height: 75vh;
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .card4 h3 {
+        font-size: 20px;
+    }
+    .container .card4 img {
+        width: 210px;
+        height: 305px;
+    }
+
+}
